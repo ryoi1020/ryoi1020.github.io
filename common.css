@@ -1,0 +1,25 @@
+:root{--bg:#f8f5ef;--card:#fffdf9;--text:#2b241c;--sub:#7a6f62;--accent:#b8703a;--accent-soft:#f3e4d3;--border:#e6dccd}
+*{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--text);font-family:"Hiragino Mincho ProN","Yu Mincho","Noto Serif JP",serif;line-height:1.85;font-size:16px}
+a{color:var(--accent)}
+.wrap{max-width:760px;margin:0 auto;padding:40px 20px 80px}
+header.top{display:flex;align-items:center;gap:14px;margin-bottom:28px}
+header.top img{width:56px;height:56px;border-radius:14px;box-shadow:0 4px 14px rgba(60,40,20,.12)}
+header.top .name{font-size:22px;font-weight:700;letter-spacing:.04em}
+header.top .name small{display:block;font-size:12px;color:var(--sub);font-weight:400;letter-spacing:.1em}
+h1{font-size:30px;line-height:1.4;margin:0 0 10px;letter-spacing:.02em}
+h2{font-size:19px;margin:36px 0 10px;padding-left:12px;border-left:3px solid var(--accent)}
+p{margin:0 0 14px}
+.lead{color:var(--sub);font-size:15px}
+.btns{display:flex;gap:12px;flex-wrap:wrap;margin:22px 0 8px}
+.btn{display:inline-block;padding:12px 18px;border-radius:999px;background:var(--accent);color:#fff;text-decoration:none;font-family:-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif;font-size:14px;font-weight:600}
+.btn.soft{background:var(--accent-soft);color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px;margin-top:8px}
+.card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:16px 18px}
+.card b{display:block;margin-bottom:4px;font-size:15px}
+.card span{font-size:13.5px;color:var(--sub)}
+ul{padding-left:1.2em}li{margin:4px 0}
+footer{margin-top:60px;padding-top:18px;border-top:1px solid var(--border);color:var(--sub);font-size:12.5px;font-family:-apple-system,"Hiragino Sans","Noto Sans JP",sans-serif}
+footer a{color:var(--sub);margin-right:14px}
+.note{font-size:13px;color:var(--sub)}
+@media (prefers-color-scheme:dark){:root{--bg:#17140f;--card:#211d16;--text:#e8e2d8;--sub:#9a9184;--accent:#d98b45;--accent-soft:#3a2d1e;--border:#332d23}}
